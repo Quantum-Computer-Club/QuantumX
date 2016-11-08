@@ -1,22 +1,20 @@
 # QuantumX
-
-*************************************************
-*   This is c implementation of CSD algorithm.  *
-*   Made by zrzhou.                             *
-*************************************************
-
+---
+This is C implementation of the CSD algorithm. 
+Coded by Zengrong Zhou (zrzhou). 
+---
 This program decomposed the unitary matrix stored in a row-major way in matclx into control-u gates and single qubit gates.
 
-Reference:
-
+References
+---
 1.Quantum Circuits for General Multiqubit Gates  (get the algorithm)
-  DOI: 10.1103/PhysRevLett.93.130502
+DOI: 10.1103/PhysRevLett.93.130502
 
 2.Qcompiler: Quantum compilation with the CSD method  (get the test data-matclx)
-  DOI: 10.1016/j.cpc.2012.10.019
+DOI: 10.1016/j.cpc.2012.10.019
 
-Attention:
-
+Notice
+---
 If the program cannot be made correctly, you should build a lapack library in your computer.
 
 You can download the source code of lapack library from "http://www.netlib.org/lapack/".
