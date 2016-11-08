@@ -17,6 +17,8 @@ DOI: 10.1016/j.cpc.2012.10.019
 
 Notice
 ---
+QuantumX should be working fine on Linux.
+
 If the program cannot be made correctly, you should build a lapack library in your computer.
 
 You can download the source code of lapack library from "http://www.netlib.org/lapack/".
